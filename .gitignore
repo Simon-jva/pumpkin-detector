@@ -1,0 +1,23 @@
+# Python virtual environment (never upload this, it's huge)
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Model weights (downloaded automatically, too big for GitHub)
+*.pt
+*.pth
+*.safetensors
+
+# Alert snapshots (keep the folder, not the photos)
+alerts/*
+!alerts/.gitkeep
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
